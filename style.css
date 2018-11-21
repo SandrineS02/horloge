@@ -1,0 +1,45 @@
+section {
+
+}
+
+#horloge {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-image: url("montre-sans-aiguilles.png");
+    transform-origin: bottom;
+    z-index: 0;
+}
+
+#aiguilleS {
+    position: absolute;
+    left: 50%;
+    height: 242px;
+    width: 5px;
+    background-color: #ff0600;
+    transform-origin: bottom left;
+    z-index: 1;
+}
+
+#aiguilleM {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    height: 200px;
+    width: 5px;
+    background-color: blue;
+    transform-origin: bottom left;
+    z-index: 2;
+}
+
+#aiguilleH {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    height: 100px;
+    width: 5px;
+    transform-origin: bottom left;
+    background-color: #f6ff02;
+    z-index: 3;
+}
